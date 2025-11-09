@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', sans-serif;
+    background-color: #1a1a1a;
+  }
+
+  body {
+    @apply font-sans;
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+}
+
+
+@layer utilities {
+
+  .border-gradient {
+    background: linear-gradient(#2f2f2f, #2f2f2f) padding-box, linear-gradient(45deg, #42d392, #647eff) border-box;
+    border: 2px solid transparent;
+}
+
+  .fix-icon {
+  transform: translateY(4px);
+}
+
+.arrow-forward {
+  display: inline-block;
+  transition: transform 0.3s ease; 
+}
+
+.arrow-forward:hover {
+  transform: translateX(4px);
+}
+
+.footer-title{
+  color: #ffffffde;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.vt-hamburger-svg .bar {
+  transition: width 0.3s ease;
+}
+
+.vt-hamburger-svg:hover .top {
+  width: 16px;
+  transform: translateX(10px);
+}
+
+.vt-hamburger-svg:hover .middle {
+  width: 24px; 
+  transform: translateX(-10px);
+}
+
+.vt-hamburger-svg:hover .bottom {
+  width: 10px;
+  transform: translateX(10px);
+}
+
+
+}
