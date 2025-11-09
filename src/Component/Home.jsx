@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import PlayIcon from '../assets/Images/playIcon.svg'
-import ArrowForward from '../assets/Images/arrowForward.svg'
+import ArrowForward from '../assets/Images/arrowforward.svg'
 import LinkIcon from '../assets/Images/Link-icon.svg'
 import PlatinumSponsors from './PlatinumSponsors'
 const Home = () => {
