@@ -28,7 +28,7 @@ const [homeVideo, setHomeVideo] = useState(false);
     <>
 
     {/* Hero Section */}
-      <section className='w-full bg-[#1a1a1a] flex flex-col text-center items-center justify-center px-6 md:px-8 py-24 md:py-32'>
+      <section className='w-full bg-[#1a1a1a] flex flex-col text-center items-center justify-center px-6 md:px-8 py-24 md:py-32 mt-10'>
         <h1 className='max-w-full md:max-w-[900px] text-[48px] md:text-[64px] lg:text-[80px] bg-[linear-gradient(145deg,#42d392_25%,#647eff)] bg-clip-text text-transparent leading-tight letter-spacing-[-1.5px] font-black mb-4'>The Progressive JavaScript Framework</h1>
         <p className='text-base md:text-xl text-[#ebebeb99] leading-normal letter-spacing-[-4%] font-normal'>An approachable, performant and versatile framework for building web user interfaces.</p>
         <div className='flex flex-col md:flex-row items-center mt-8 gap-4'>

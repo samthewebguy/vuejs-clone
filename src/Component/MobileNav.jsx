@@ -74,7 +74,7 @@ const [changeMode, setChangeMode] = useState(false);
 
 
   return (
-    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-12 py-6 md:hidden z-50">
+    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-12 py-6 mt-12 md:hidden z-50">
       {Mobilelinks.map((mobilelink, index) => (
         <div key={index} className="w-full  relative group" 
              onClick={() => setActiveDropdown(activeDropdown === index ? null : index)} 

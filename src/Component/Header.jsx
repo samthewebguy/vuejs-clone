@@ -40,9 +40,9 @@ const Header = () => {
 
   return (
     <>
-    <header className='w-full relative bg-[#1a1a1a] h-[55px] flex flex-row items-center border-b border-b-[#5454547a] px-6 md:px-8'>
+    <header className='w-full fixed top-0 right-0 left-0 z-999 mb-40 bg-[#1a1a1a] h-[55px] flex flex-row items-center border-b border-b-[#5454547a] px-6 md:px-8'>
         <nav className='w-full flex'>
-            <div className='w-full Container flex flex-row items-center justify-between'>
+            <div className='w-full Container flex flex-row items-center justify-between '>
                 <div className='flex flex-row items-center'>
                     
                     {/* Site Logo */}
@@ -219,7 +219,7 @@ const Header = () => {
             </div>
         </nav>
     </header>
-    <div className={`w-full h-full absolute top-10 inset-0 z-50 flex flex-col items-center justify-center  md:hidden ${mobileMenu ? 'flex' : 'hidden' }`} >
+    <div className={`w-full h-full sticky top-0 right-10 left-0 inset-0 z-50 flex flex-col items-center justify-center  md:hidden ${mobileMenu ? 'flex' : 'hidden' }`} >
     <MobileNav />
     </div>
     </>
