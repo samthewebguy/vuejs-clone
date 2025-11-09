@@ -76,7 +76,7 @@ const [changeMode, setChangeMode] = useState(false);
   return (
     <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-6 py-6 md:hidden z-50">
       {Mobilelinks.map((mobilelink, index) => (
-        <div key={index} className="w-full px-20 relative group" 
+        <div key={index} className="w-full px-10 relative group" 
              onClick={() => setActiveDropdown(activeDropdown === index ? null : index)} 
             >
           <NavLink 
@@ -108,13 +108,13 @@ const [changeMode, setChangeMode] = useState(false);
 
         {/* Languages */}
 
-        <div className='w-full px-20 mt-6'>
+        <div className='w-full px-10 mt-6'>
             <MobileLanguages/>
         </div>
 
         {/* Mode */}
 
-        <div className='w-full flex items-center justify-center px-20 mt-6' >
+        <div className='w-full flex items-center justify-center px-10 mt-6' >
                                 <div className='w-full bg-[#1a1a1a] flex flex-col rounded-md'>
                                     <div className='bg-[#242424] flex flex-row items-center justify-between rounded-md p-4'>
                                         <p className='text-[#ebebeb99] text-[12px] mr-8'>Appearance</p>
