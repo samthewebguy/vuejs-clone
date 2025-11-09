@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-import Header from './Header'
 import PlayIcon from '../assets/Images/playicon.svg'
 import ArrowForward from '../assets/Images/arrowForward.svg'
 import LinkIcon from '../assets/Images/Link-icon.svg'
 import PlatinumSponsors from './PlatinumSponsors'
-import Footer from './Footer'
-
 const Home = () => {
 
 const [homeVideo, setHomeVideo] = useState(false);
