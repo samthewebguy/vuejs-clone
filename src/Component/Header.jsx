@@ -219,7 +219,7 @@ const Header = () => {
             </div>
         </nav>
     </header>
-        <div className={`w-full h-full sticky top-8 inset-0 z-50 flex flex-col items-center justify-center  md:hidden ${mobileMenu ? 'flex' : 'hidden' }`} >
+        <div className={`w-full h-full sticky top-0 inset-0 z-50 flex flex-col items-center justify-center  md:hidden ${mobileMenu ? 'flex' : 'hidden' }`} >
         <MobileNav />
         </div>
        </>

@@ -74,9 +74,9 @@ const [changeMode, setChangeMode] = useState(false);
 
 
   return (
-    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-6 py-6 md:hidden z-50">
+    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-10 py-6 md:hidden z-50">
       {Mobilelinks.map((mobilelink, index) => (
-        <div key={index} className="w-full px-10 relative group" 
+        <div key={index} className="w-full px-6 relative group" 
              onClick={() => setActiveDropdown(activeDropdown === index ? null : index)} 
             >
           <NavLink 
@@ -158,7 +158,7 @@ const [changeMode, setChangeMode] = useState(false);
 
                                     {/* Social icons */}
 
-                                    <div className='flex flex-row items-center justify-center p-4'>
+                                    <div className='w-full flex flex-row items-center justify-center p-4'>
                                         <div className='flex flex-row items-center gap-4'>
                                             <a href="https://github.com/vuejs/" target='_blank' >
                                             <img src={GithubIcon} alt="Github icon" className='h-5 w-5 invert-[0.3] hover:invert-0 transition' />
