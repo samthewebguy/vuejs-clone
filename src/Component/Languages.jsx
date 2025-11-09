@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import ArrowUp from '../assets/Images/arrowup.svg'
 import GithubIcon from '../assets/Images/github.svg'
-import LanguageIcon from '../assets/Images/language.svg'
+import LanguageIcon from '../assets/Images/Language.svg'
 
 const Languages = () => {
 
