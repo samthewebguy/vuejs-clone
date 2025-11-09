@@ -74,9 +74,9 @@ const [changeMode, setChangeMode] = useState(false);
 
 
   return (
-    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-10 py-6 md:hidden z-50">
+    <div className="w-full h-full bg-[#1a1a1a] flex flex-col items-center px-12 py-6 md:hidden z-50">
       {Mobilelinks.map((mobilelink, index) => (
-        <div key={index} className="w-full px-6 relative group" 
+        <div key={index} className="w-full  relative group" 
              onClick={() => setActiveDropdown(activeDropdown === index ? null : index)} 
             >
           <NavLink 
@@ -108,13 +108,13 @@ const [changeMode, setChangeMode] = useState(false);
 
         {/* Languages */}
 
-        <div className='w-full px-10 mt-6'>
+        <div className='w-full mt-6'>
             <MobileLanguages/>
         </div>
 
         {/* Mode */}
 
-        <div className='w-full flex items-center justify-center px-10 mt-6' >
+        <div className='w-full flex items-center justify-center  mt-6' >
                                 <div className='w-full bg-[#1a1a1a] flex flex-col rounded-md'>
                                     <div className='bg-[#242424] flex flex-row items-center justify-between rounded-md p-4'>
                                         <p className='text-[#ebebeb99] text-[12px] mr-8'>Appearance</p>
@@ -158,7 +158,7 @@ const [changeMode, setChangeMode] = useState(false);
 
                                     {/* Social icons */}
 
-                                    <div className='flex flex-row items-center justify-center p-4'>
+                                    <div className='w-full flex flex-row items-center justify-center p-4'>
                                         <div className='flex flex-row items-center gap-4'>
                                             <a href="https://github.com/vuejs/" target='_blank' >
                                             <img src={GithubIcon} alt="Github icon" className='h-5 w-5 invert-[0.3] hover:invert-0 transition' />
