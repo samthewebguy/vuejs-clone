@@ -51,7 +51,7 @@ const [homeVideo, setHomeVideo] = useState(false);
       {homeVideo && (
       <div onClick={closeHomeVideo} className={`fixed inset-0 z-50 flex items-center justify-center ${homeVideo ? 'flex' : 'hidden' }`} >
         <div onClick={(e) => e.stopPropagation()} className='w-full max-w-[90%] md:max-w-[70%] h-[40vh] md:h-[50vh] lg:h-[70vh] xl:h-[80vh] bg-[#242424] rounded-md overflow-hidden flex flex-col items-center p-2'>
-            <iframe className='h-full w-full rounded-md object-cover' title="Vue Mastery Intro" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen src="https://youtube.com/embed/LzMnsfqjzkA?si=fPnIPuXxdzMtXNKv"></iframe>
+            <iframe className='h-full w-full rounded-md object-cover' title="Vue Mastery Intro" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen src="https://youtube.com/embed/nhBVL41-_Cw?si=Apq7pDW96VG49yOA"></iframe>
             <div className='flex flex-row items-center text-center justifu-center py-2 px-4'>
                 <p className='text-[12px] text-[#ebebeb99]'>Video by <a href="" className='text-[#42b983]'>Vue Mastery.</a> Watch the Vue Mastery's free <a href="" className='text-[#42b983]'>Intro to Vue Course.</a></p>
             </div>
